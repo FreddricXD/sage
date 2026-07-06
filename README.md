@@ -109,7 +109,7 @@ python -m pytest -q
 Covers chunking (overlap, page tracking, edge cases), prompt assembly, and the
 hybrid-search rank-fusion logic.
 
-## How it works (talking points)
+## How it works
 
 - **Chunking** (`app/rag/chunk.py`): word-aware splitting with character-budget
   overlap so context isn't cut mid-sentence.
